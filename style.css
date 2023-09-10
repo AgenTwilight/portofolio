@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-height: 100vh;
+    background-color: #1F252E;
+}
+
+header {
+    padding: 1.7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 1rem;
+    padding: 0.4rem 1rem;
+}
+
+/* warna nav */
+nav a:hover {
+    color: #00E8F8;
+    border-radius: 1rem;
+    transition: all.3s ease-in-out;
+}
+
+section {
+    margin: 2rem 8.5rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #00E8F8;
+}
+
+.main p {
+    margin-top: 1rem;
+    font-size: .98rem;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.social a {
+    color: #00E8F8;
+    font-size: 1rem;
+    border: 1.6px solid #00E8F8;
+    border-radius: 50%;
+    padding: .35rem;
+    text-align: center;
+    width: 26px;
+}
+
+.social a:hover {
+    color: #1F252E;
+    background-color: #00E8F8;
+    transition: all .3s ease-in-out;
+}
+
+.main h1 span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.image img{
+    box-shadow: 0px 16px 4px -8px #1b9aa3;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.mi{
+    color: #00E8F8;
+}
+
+.helo{
+    color: #fff;
+}
+
+/* Aboute */
+
+#about{
+    padding: 3rem 2rem;
+}
+
+.pre-title{
+    color: #00E8F8;
+    margin-bottom: 60%;
+    margin-top: 6%;
+    border-bottom: 1px  solid #fff;
+    align-items: center;
+}
+
+.texs{
+    color:#fff;
+
+}
+
+/* Layout */
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 4rem;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.about h1 {
+    margin-bottom: 1rem;
+}
+
+#about{
+    margin-top: 20%;
+}
+.about-me{          /* profil 2 */        
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.about-me img{
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 16px 4px -8px #1b9aa3;
+}
+
+.skills{
+    background:#1F252E;
+    
+}
+
+.logo{
+    color: #fff;
+    text-align: unset;
+}
+
+
+/* Styling for the contact section */
+.contact {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Styling for the title */
+.title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Styling for form elements */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.content h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 400%; /* Lebar textarea diperbesar menjadi 400% */
+  max-width: 100%; /* Tetap maksimum 100% agar tidak keluar dari kontainer */
+  margin: 0 auto; /* Membuat textarea tetap berada di tengah */
+  resize: vertical;
+  height: 150px; /* Tinggi textarea tetap seperti sebelumnya */
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  background-color: #00E8F8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #00E8F8;
+}
+
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.footer-title span {
+  color: #00E8F8;
+}
+
+.footer .social-icons a {
+  font-size: 1.5em;
+  padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #00E8F8;
+}
+
+
+@media (max-width:1023px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 10px;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media (max-width:641px) {
+body {
+    font-size: 12px;
+}
+
+.main-content h2 {
+    font-size: 0.8em;
+}
+
+.main-content h3 {
+    font-size: 1.4em;
+}
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+}
+}
+
+#eduskills {
+  display: flex;
+  justify-content: center;
+  color: #f7f7f7;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.pre-title {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.education {
+  display: flex;
+  gap: 2rem;
+}
+
+.education .line {
+  padding: 0 0.7rem;
+}
+
+.education .line div {
+  width: 2px;
+  height: 100%;
+  background-color: #abaaaa;
+  position: relative;
+}
+
+.education-info p {
+  margin: 0.6rem 0 1.4rem;
+}
+
+.education-years {
+  margin-bottom: 3rem;
+}
+
+.education .line div:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #abaaaa;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+}
+
+.skills-right ul {
+    line-height: 2rem;
+    padding: 0 1rem;
+}

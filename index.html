@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <label for="click" class="mainicon">
+            <div class="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+
+        <nav>
+            <!-- <h2 class="logo">Iqtach</h2> -->
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="main">
+            <div class="detail">
+                <h1><span class="helo">Hallo, I'm Muhammad Iqbal</span> <span class="mi"><br>FrontEnd Developer</span></h1>
+                <p>Programmer pemula yang masih belajar <br>dan seorang mahasiswa UNHAS. </p>
+                <div class="social">
+                    <a href="https://github.com/AgenTwilight"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/iqteck/?hl=en"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-iqbal-90083a24a/"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=100055349455283"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="image/iqbal.jpg" alt="profile" width="100%">
+            </div>
+        </div>
+    </section>
+
+    <section id="about"> 
+        <div class="about-me">
+            <img src="image/boba.jpg" alt="profile">
+            <div class="grid-1">
+                <div class="about">
+                    <h1>about me</h1>
+                    <p class="texs">Saya seorang individu yang memiliki kepribadian introvert, yang menemukan kebahagiaan dalam dunia buku dan kedalaman pemikiran. Saya adalah seorang pecinta buku, yang memungkinkan saya untuk menjelajahi berbagai dunia, ide, dan pandangan. 
+                        Selain itu, ketertarikan saya terhadap perkembangan teknologi yang terus bergerak maju dan dinamika bisnis yang menarik membuat saya selalu bersemangat untuk memahami dan berpartisipasi dalam dunia ini. 
+                        Saya percaya bahwa kombinasi antara ketertarikan pribadi saya pada literatur, teknologi, dan bisnis memberi saya pandangan yang unik dan pemahaman yang mendalam dalam berbagai aspek kehidupan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="eduskills">
+        <div class="skills main-container">
+            <hr>
+            <h1 class="pre-title">Learning Path</h1>
+            <h3 class="section-title">Skills & Education</h3><br>
+
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <!-- education 1 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">SMP 1 ParangLoe</h4>
+                            <p>Junior High School</p>
+                            <h3 class="education-years">2016-2019</h3>
+                        </div>
+                    </div>
+                    <!-- education 2 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">SMA Negeri 6 Gowa</h4>
+                            <p>Senior High School</p>
+                            <h3 class="education-years">2019-2022</h3>
+                        </div>
+                    </div>
+                    <!-- education 3 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">Universitas Hasanuddin</h4>
+                            <p>Information System</p>
+                            <h3 class="education-years">2022-Present</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <p>
+                        Pengalaman saya sebagai mahasiswa Universitas Hasanuddin angkatan 2022 dalam dunia pemrograman sungguh luar biasa. Dari awal kuliah, saya senang belajar pemrograman dan terus memperdalam pengetahuan ini. Bersama dosen-dosen berpengalaman dan teman-teman seangkatan, kami terus belajar dan berkolaborasi dalam proyek-proyek menarik. Pengalaman ini telah membantu saya tumbuh menjadi programmer yang lebih kompeten dan bersemangat untuk terus menjelajahi dunia coding.
+                    </p>
+                    <div class="skills-list">
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        
+    <section>
+        <div class="content">
+            <h1>Contact Me</h1>
+            <form action="mailto:@gmail.com" method="POST" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Email</button>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    </body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+    </style>
+</html>
+
+<footer class="footer">
+    <p class="footer-title">Copyrights&copy;<span>iqbal ramadhan</span></p>
+    <div class="social-icons">
+            <a href="https://www.instagram.com/iqteck/?hl=en"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-iqbal-90083a24a/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100055349455283"><i class="bi bi-facebook"></i></a>
+    </div>
+</footer>
